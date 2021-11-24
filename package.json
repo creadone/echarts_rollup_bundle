@@ -1,0 +1,13 @@
+{
+  "name": "echarts_rollup_bundle",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-replace": "^3.0.0",
+    "echarts": "^5.2.2",
+    "rollup": "^2.60.1"
+  }
+}
